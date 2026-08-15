@@ -1,0 +1,25 @@
+# Virtual Environment
+banner/venv/
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.npy
+
+# Input images (optional/private source images)
+banner/input/
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials
+tokens
+
+# OS Files
+.DS_Store
+Thumbs.db
